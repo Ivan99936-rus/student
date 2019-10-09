@@ -1,9 +1,6 @@
-#include <QCoreApplication>
 #include "human.h"
-
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
 
     Human *h = new Human();
     h-> say();
@@ -11,5 +8,5 @@ int main(int argc, char *argv[])
     Human *x = new Human("Petr", 174, 83);
     x->say();
 
-    return a.exec();
+    return 0;
 }
