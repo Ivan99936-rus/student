@@ -1,5 +1,5 @@
 #include "human.h"
-int main(int argc, char *argv[])
+int main(char argc, char *argv[])
 {
 
     Human *h = new Human();
